@@ -1,4 +1,5 @@
 HELLO
+q(1)
 https://www.tinkercad.com/things/9MBYtrP9WN0-task-3-q1/editel?sharecode=Ot02j2Q-pi-ehPTQWSvDnm0bWszLv5Yngrg5ihTxmJ0
 int photoresistor = A0;
 int buzzer=7;

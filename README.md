@@ -3,7 +3,8 @@
 GithubRepo
 This repository contains the following tasks organized into branches:
 
-pervious tasks
+task1
+C++ codes
 
 task3
 arduio.

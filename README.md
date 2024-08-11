@@ -1,5 +1,4 @@
-# GithubRepo
-Previous tasks
+#Previous tasks
 GithubRepo
 This repository contains the following tasks organized into branches:
 

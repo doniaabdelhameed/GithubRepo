@@ -1,2 +1,21 @@
 HELLO
 https://www.tinkercad.com/things/9MBYtrP9WN0-task-3-q1/editel?sharecode=Ot02j2Q-pi-ehPTQWSvDnm0bWszLv5Yngrg5ihTxmJ0
+int photoresistor = A0;
+int buzzer=7;
+void setup()
+{
+Serial.begin (9600);
+pinMode(buzzer,OUTPUT);
+}
+void loop()
+{
+int limit;
+  limit = analogRead (photoresistor);
+  Serial.println (limit);
+  delay (500);
+
+  if (limit>500)
+  { digitalWrite (buzzer,HIGH);}  
+  else
+  { digitalWrite (buzzer,LOW);}
+  }
